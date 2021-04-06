@@ -10,3 +10,8 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 40px;
 }
+
+.App>p,
+.App>p>a{
+    color: #A9A9A9;
+}

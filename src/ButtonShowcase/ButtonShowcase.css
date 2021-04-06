@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 .showcase{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    width: 350px;
 }
 
 .showcase__title{

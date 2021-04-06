@@ -2,18 +2,113 @@
     color: #4F4F4F;
     background-color: #E0E0E0;
     border-color: transparent;
-    padding: .6rem 1rem;
-    font-weight: 700;
+    padding: .6rem 1rem !important;
+    font-weight: 600 !important;
     font-size: 1rem;
-    border-radius: 6px;
+    border-radius: 6px !important;
     outline: none;
     cursor: pointer;
-    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
-    transition: transform .3s ease;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2) !important;
 }
 
 .btn:hover,
 .btn:focus{
     background: #AEAEAE;
-    transform: scale(1.01);
+}
+
+.btn.btn-primary{
+    background-color: #3D5AFE;
+    color: #fff;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus{
+    background-color: #0039CB;
+}
+
+.btn.btn-secondary{
+    background-color: #455A64;
+    color: #fff;
+}
+
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus{
+    background-color: #1C313A;
+}
+
+.btn.btn-danger{
+    background-color: #D32F2F;
+    color: #fff;
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus{
+    background-color: #9A0007;
+}
+
+.btn.btn-default{
+    background-color: #E0E0E0;
+}
+
+.btn.btn-default:hover,
+.btn.btn-default:focus{
+    background-color: #AEAEAE;
+}
+
+.MuiButton-containedPrimary{
+    background-color: #3D5AFE !important;
+}
+
+.MuiButton-label{
+    font-weight: 600;
+}
+
+.btn.outline{
+    background-color: #fff;
+    color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    box-shadow: none;
+    padding: .65rem 1.1rem !important;
+}
+
+.btn.outline:focus,
+.btn.outline:hover{
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.btn.text{
+    background-color: #fff;
+    color: #3D5AFE;
+    border: none;
+    box-shadow: none !important;
+}
+
+.btn.text:hover,
+.btn.text:focus{
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.btn.d-shadow{
+    background-color: #3D5AFE;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn.d-shadow:hover,
+.btn.d-shadow:focus{
+    background-color: #3D5AFE;
+    color: #fff;
+}
+
+.btn:disabled{
+    background-color: #E0E0E0;
+    border: none;
+    color: #9E9E9E;
+    box-shadow: none;
+}
+
+.btn.text:disabled{
+    background-color: #fff;
+    color: #9E9E9E;
+    padding-left: 0;
 }

@@ -2,9 +2,11 @@ import React from 'react';
 
 import './Button.css';
 
-const Button = () => {
+const Button = ({variant, disableShadow, disabled, startIcon}) => {
     return (
-        <button className="btn">Default</button>
+        <button disabled={disabled} className={`btn ${variant} ${disableShadow ? 'd-shadow' : ''}`}>
+            Default
+        </button>
     );
 };
 
